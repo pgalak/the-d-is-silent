@@ -1,4 +1,23 @@
 {% extends "blog/base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+    <h1>About This Blog</h1>
+    <ul>
+        <li>This is a blog site based on python's framework, django.</li><br>
+        <li>It has a fully functional postgreSQL database which
+            allows the registration of new users and the creation of their profile.</li><br>
+        <li>Users are also able to login after
+            registering and logout.</li><br>
+        <li>In case their password is forgotten they are able to reset it by providing their 
+            email address. An email is sent to them and they are prompted to follow a link in order to reset it.</li><br>
+        <li>
+            By clicking on a user's name, other users can see all the posts he/she has uploaded. 
+        </li><br>
+        <li>
+            Five posts per page with a working paginator on the bottom.
+        </li><br>
+        <li>The blog's name(the-d-is-silent) is direct quote from the movie: Django Unchained.</li><br>
+        <li>
+            More updates coming soon™!
+        </li>
+    </ul>
 {% endblock content %}
